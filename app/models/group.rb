@@ -1,2 +1,4 @@
-class Group < ApplicationRecord
-end
+class Group <ApplicationRecord
+    validates :title, presence: true
+    validates :description,presence:true
+  end
